@@ -1,0 +1,20 @@
+{
+  "name": "follow-builders-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for Follow Builders skill — feed generation, digest preparation, delivery",
+  "type": "module",
+  "scripts": {
+    "generate-feed": "node generate-feed.js",
+    "prepare-digest": "node prepare-digest.js",
+    "render-html": "node render-html.js",
+    "render-email": "node render-email.js",
+    "render-url-email": "node render-url-email.js",
+    "publish-site": "node publish-site.js",
+    "run-digest": "node run-digest.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "nodemailer": "^6.10.1",
+    "proper-lockfile": "^4.1.0"
+  }
+}
