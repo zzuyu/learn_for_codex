@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-04-17T03:29:09.807Z",
+  "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
+  "latest": {
+    "date": "2026-04-15",
+    "title": "AI Builders 简报 - 2026年4月15日",
+    "summary": "Cat Wu 这两条更新放在一起看，方向很清楚：Claude Code 正在从“终端里的编码助手”往“可调度、可编排的工作台”走。 她一边强调桌面版更适合同时管理本地和云端的多个 session，一边强调 Routines 可以从定时… 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
+    "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-15/"
+  },
+  "archive": [
+    {
+      "date": "2026-04-15",
+      "title": "AI Builders 简报 - 2026年4月15日",
+      "summary": "Cat Wu 这两条更新放在一起看，方向很清楚：Claude Code 正在从“终端里的编码助手”往“可调度、可编排的工作台”走。 她一边强调桌面版更适合同时管理本地和云端的多个 session，一边强调 Routines 可以从定时… 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-15/"
+    }
+  ]
+}

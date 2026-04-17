@@ -83,7 +83,7 @@ jobs:
         working-directory: scripts
         env:
           DELIVERY_METHOD: email
-          DELIVERY_EMAIL: ${{ vars.DELIVERY_EMAIL || 'jiangjunqing@huawei.com' }}
+          DELIVERY_EMAIL: ${{ vars.DELIVERY_EMAIL }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
@@ -91,7 +91,8 @@ jobs:
           SMTP_FROM_EMAIL: ${{ secrets.SMTP_FROM_EMAIL }}
           SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
         run: |
-          node deliver.js \
+          RECIPIENT="${DELIVERY_EMAIL:-jiangjunqing@huawei.com}"
+          DELIVERY_EMAIL="$RECIPIENT" node deliver.js \
             --html-file "${{ steps.notify_email.outputs.email_html }}" \
             --text-file "${{ steps.notify_email.outputs.email_text }}" \
             --subject "${{ steps.notify_email.outputs.email_subject }}"
