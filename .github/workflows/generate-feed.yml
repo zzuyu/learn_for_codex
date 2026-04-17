@@ -8,6 +8,8 @@ on:
       - '.github/workflows/generate-feed.yml'
       - 'config/**'
       - 'scripts/**'
+      - 'feed-*.json'
+      - 'state-feed.json'
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
@@ -18,10 +20,6 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      FOLLOW_BUILDERS_REMOTE_REPO: ${{ vars.FOLLOW_BUILDERS_REMOTE_REPO }}
-      PUBLIC_BASE_URL: https://cdn.jsdelivr.net/gh/${{ github.repository_owner }}/${{ github.event.repository.name }}@main/docs/
-
     steps:
       - uses: actions/checkout@v4
 
@@ -30,7 +28,8 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: cd scripts && npm install
+        working-directory: scripts
+        run: npm install
 
       - name: Prepare digest payload
         working-directory: scripts
@@ -39,60 +38,19 @@ jobs:
           node prepare-digest.js > ../tmp/prepared.json
 
       - name: Publish docs artifacts
-        id: publish
         working-directory: scripts
         run: |
-          node publish-site.js --input ../tmp/prepared.json --docs-root ../docs --base-url "$PUBLIC_BASE_URL" > ../tmp/publish.json
-          node - <<'NODE'
-          const fs = require('fs');
-          const result = JSON.parse(fs.readFileSync('../tmp/publish.json', 'utf8'));
-          const output = process.env.GITHUB_OUTPUT;
-          fs.appendFileSync(output, `status=${result.status || 'unknown'}\n`);
-          fs.appendFileSync(output, `date=${result.date || ''}\n`);
-          fs.appendFileSync(output, `latest_url=${result.latestUrl || ''}\n`);
-          fs.appendFileSync(output, `archive_url=${result.archiveUrl || ''}\n`);
-          fs.appendFileSync(output, `title=${(result.title || '').replace(/\r?\n/g, ' ')}\n`);
-          NODE
+          node publish-site.js \
+            --input ../tmp/prepared.json \
+            --docs-root ../docs \
+            --base-url "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/" \
+            > ../tmp/publish.json
+          cat ../tmp/publish.json
 
       - name: Commit and push docs
-        if: steps.publish.outputs.status == 'ok'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs
-          git diff --cached --quiet || git commit -m "chore: publish digest ${{ steps.publish.outputs.date }} [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: publish digest [skip ci]"
           git push
-
-      - name: Render URL notification email
-        id: notify_email
-        if: steps.publish.outputs.status == 'ok'
-        working-directory: scripts
-        run: |
-          node render-url-email.js --input ../tmp/publish.json > ../tmp/url-email.json
-          node - <<'NODE'
-          const fs = require('fs');
-          const result = JSON.parse(fs.readFileSync('../tmp/url-email.json', 'utf8'));
-          const output = process.env.GITHUB_OUTPUT;
-          fs.appendFileSync(output, `email_subject=${(result.subject || '').replace(/\r?\n/g, ' ')}\n`);
-          fs.appendFileSync(output, `email_html=${result.htmlOutput || ''}\n`);
-          fs.appendFileSync(output, `email_text=${result.textOutput || ''}\n`);
-          NODE
-
-      - name: Send URL notification email
-        if: steps.publish.outputs.status == 'ok' && secrets.SMTP_HOST != '' && secrets.SMTP_LOGIN != '' && secrets.SMTP_PASSWORD != '' && secrets.SMTP_FROM_EMAIL != ''
-        working-directory: scripts
-        env:
-          DELIVERY_METHOD: email
-          DELIVERY_EMAIL: ${{ vars.DELIVERY_EMAIL }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          SMTP_FROM_EMAIL: ${{ secrets.SMTP_FROM_EMAIL }}
-          SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
-        run: |
-          RECIPIENT="${DELIVERY_EMAIL:-jiangjunqing@huawei.com}"
-          DELIVERY_EMAIL="$RECIPIENT" node deliver.js \
-            --html-file "${{ steps.notify_email.outputs.email_html }}" \
-            --text-file "${{ steps.notify_email.outputs.email_text }}" \
-            --subject "${{ steps.notify_email.outputs.email_subject }}"
