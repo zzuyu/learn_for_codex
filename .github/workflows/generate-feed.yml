@@ -1,0 +1,86 @@
+name: Publish Digest Site
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    env:
+      FOLLOW_BUILDERS_REMOTE_REPO: ${{ vars.FOLLOW_BUILDERS_REMOTE_REPO }}
+      PUBLIC_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: cd scripts && npm install
+
+      - name: Prepare digest payload
+        run: |
+          mkdir -p tmp
+          cd scripts && node prepare-digest.js > ../tmp/prepared.json
+
+      - name: Publish docs artifacts
+        id: publish
+        run: |
+          cd scripts && node publish-site.js --input ../tmp/prepared.json --docs-root ../docs --base-url "$PUBLIC_BASE_URL" > ../tmp/publish.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const result = JSON.parse(fs.readFileSync('./tmp/publish.json', 'utf8'));
+          const output = process.env.GITHUB_OUTPUT;
+          fs.appendFileSync(output, `status=${result.status || 'unknown'}\n`);
+          fs.appendFileSync(output, `date=${result.date || ''}\n`);
+          fs.appendFileSync(output, `latest_url=${result.latestUrl || ''}\n`);
+          fs.appendFileSync(output, `archive_url=${result.archiveUrl || ''}\n`);
+          fs.appendFileSync(output, `title=${(result.title || '').replace(/\r?\n/g, ' ')}\n`);
+          NODE
+
+      - name: Commit and push docs
+        if: steps.publish.outputs.status == 'ok'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "chore: publish digest ${{ steps.publish.outputs.date }} [skip ci]"
+          git push
+
+      - name: Render URL notification email
+        id: notify_email
+        if: steps.publish.outputs.status == 'ok' && vars.DELIVERY_EMAIL != ''
+        run: |
+          cd scripts && node render-url-email.js --input ../tmp/publish.json > ../tmp/url-email.json
+          node - <<'NODE'
+          const fs = require('fs');
+          const result = JSON.parse(fs.readFileSync('./tmp/url-email.json', 'utf8'));
+          const output = process.env.GITHUB_OUTPUT;
+          fs.appendFileSync(output, `email_subject=${(result.subject || '').replace(/\r?\n/g, ' ')}\n`);
+          fs.appendFileSync(output, `email_html=${result.htmlOutput || ''}\n`);
+          fs.appendFileSync(output, `email_text=${result.textOutput || ''}\n`);
+          NODE
+
+      - name: Send URL notification email
+        if: steps.publish.outputs.status == 'ok' && vars.DELIVERY_EMAIL != ''
+        env:
+          DELIVERY_METHOD: email
+          DELIVERY_EMAIL: ${{ vars.DELIVERY_EMAIL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_FROM_EMAIL: ${{ secrets.SMTP_FROM_EMAIL }}
+          SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
+        run: |
+          cd scripts && node deliver.js \
+            --html-file "${{ steps.notify_email.outputs.email_html }}" \
+            --text-file "${{ steps.notify_email.outputs.email_text }}" \
+            --subject "${{ steps.notify_email.outputs.email_subject }}"
