@@ -1,6 +1,13 @@
 name: Publish Digest Site
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/generate-feed.yml'
+      - 'config/**'
+      - 'scripts/**'
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
@@ -13,7 +20,7 @@ jobs:
 
     env:
       FOLLOW_BUILDERS_REMOTE_REPO: ${{ vars.FOLLOW_BUILDERS_REMOTE_REPO }}
-      PUBLIC_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+      PUBLIC_BASE_URL: https://cdn.jsdelivr.net/gh/${{ github.repository_owner }}/${{ github.event.repository.name }}@main/docs/
 
     steps:
       - uses: actions/checkout@v4
