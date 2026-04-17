@@ -33,17 +33,19 @@ jobs:
         run: cd scripts && npm install
 
       - name: Prepare digest payload
+        working-directory: scripts
         run: |
-          mkdir -p tmp
-          cd scripts && node prepare-digest.js > ../tmp/prepared.json
+          mkdir -p ../tmp
+          node prepare-digest.js > ../tmp/prepared.json
 
       - name: Publish docs artifacts
         id: publish
+        working-directory: scripts
         run: |
-          cd scripts && node publish-site.js --input ../tmp/prepared.json --docs-root ../docs --base-url "$PUBLIC_BASE_URL" > ../tmp/publish.json
+          node publish-site.js --input ../tmp/prepared.json --docs-root ../docs --base-url "$PUBLIC_BASE_URL" > ../tmp/publish.json
           node - <<'NODE'
           const fs = require('fs');
-          const result = JSON.parse(fs.readFileSync('./tmp/publish.json', 'utf8'));
+          const result = JSON.parse(fs.readFileSync('../tmp/publish.json', 'utf8'));
           const output = process.env.GITHUB_OUTPUT;
           fs.appendFileSync(output, `status=${result.status || 'unknown'}\n`);
           fs.appendFileSync(output, `date=${result.date || ''}\n`);
@@ -63,12 +65,13 @@ jobs:
 
       - name: Render URL notification email
         id: notify_email
-        if: steps.publish.outputs.status == 'ok' && vars.DELIVERY_EMAIL != ''
+        if: steps.publish.outputs.status == 'ok'
+        working-directory: scripts
         run: |
-          cd scripts && node render-url-email.js --input ../tmp/publish.json > ../tmp/url-email.json
+          node render-url-email.js --input ../tmp/publish.json > ../tmp/url-email.json
           node - <<'NODE'
           const fs = require('fs');
-          const result = JSON.parse(fs.readFileSync('./tmp/url-email.json', 'utf8'));
+          const result = JSON.parse(fs.readFileSync('../tmp/url-email.json', 'utf8'));
           const output = process.env.GITHUB_OUTPUT;
           fs.appendFileSync(output, `email_subject=${(result.subject || '').replace(/\r?\n/g, ' ')}\n`);
           fs.appendFileSync(output, `email_html=${result.htmlOutput || ''}\n`);
@@ -76,10 +79,11 @@ jobs:
           NODE
 
       - name: Send URL notification email
-        if: steps.publish.outputs.status == 'ok' && vars.DELIVERY_EMAIL != ''
+        if: steps.publish.outputs.status == 'ok' && secrets.SMTP_HOST != '' && secrets.SMTP_LOGIN != '' && secrets.SMTP_PASSWORD != '' && secrets.SMTP_FROM_EMAIL != ''
+        working-directory: scripts
         env:
           DELIVERY_METHOD: email
-          DELIVERY_EMAIL: ${{ vars.DELIVERY_EMAIL }}
+          DELIVERY_EMAIL: ${{ vars.DELIVERY_EMAIL || 'jiangjunqing@huawei.com' }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_LOGIN: ${{ secrets.SMTP_LOGIN }}
@@ -87,7 +91,7 @@ jobs:
           SMTP_FROM_EMAIL: ${{ secrets.SMTP_FROM_EMAIL }}
           SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
         run: |
-          cd scripts && node deliver.js \
+          node deliver.js \
             --html-file "${{ steps.notify_email.outputs.email_html }}" \
             --text-file "${{ steps.notify_email.outputs.email_text }}" \
             --subject "${{ steps.notify_email.outputs.email_subject }}"
