@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-04-19T07:18:01.497Z",
+  "generatedAt": "2026-04-20T08:05:33.754Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-04-18",
-    "title": "AI Builders 简报 - 2026年4月18日",
-    "summary": "OpenAI VP Kevin Weil 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Today is my last day at OpenAI, as OpenAI for Science i… 本期还整理了 16 条 builder 动态、1 期播客。",
+    "date": "2026-04-20",
+    "title": "AI Builders 简报 - 2026年4月20日",
+    "summary": "Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和权限体验还远没打磨完。 这种公开反馈很有价值，因为它直接暴露了产品从“能用”走向“高频可用”时最容易… 本期还整理了 9 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-18/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-20/index.html"
   },
   "archive": [
+    {
+      "date": "2026-04-20",
+      "title": "AI Builders 简报 - 2026年4月20日",
+      "summary": "Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和权限体验还远没打磨完。 这种公开反馈很有价值，因为它直接暴露了产品从“能用”走向“高频可用”时最容易… 本期还整理了 9 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-20/index.html"
+    },
     {
       "date": "2026-04-18",
       "title": "AI Builders 简报 - 2026年4月18日",
