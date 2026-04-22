@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-04-21T07:48:46.645Z",
+  "generatedAt": "2026-04-22T07:45:24.263Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-04-21",
-    "title": "AI Builders 简报 - 2026年4月21日",
-    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Tim Cook is a legend. I am very thankful for everything he has do… 本期还整理了 17 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-04-22",
+    "title": "AI Builders 简报 - 2026年4月22日",
+    "summary": "Peter Steinberger 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：OpenClaw 2026.4.21 is live. Small release, important fix:… 本期还整理了 13 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-21/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-22/index.html"
   },
   "archive": [
+    {
+      "date": "2026-04-22",
+      "title": "AI Builders 简报 - 2026年4月22日",
+      "summary": "Peter Steinberger 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：OpenClaw 2026.4.21 is live. Small release, important fix:… 本期还整理了 13 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-22/index.html"
+    },
     {
       "date": "2026-04-21",
       "title": "AI Builders 简报 - 2026年4月21日",
