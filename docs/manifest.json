@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-04-25T07:14:31.377Z",
+  "generatedAt": "2026-04-26T07:27:44.882Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-04-25",
-    "title": "AI Builders 简报 - 2026年4月25日",
-    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：this was a good week. proud of the team. happy building! 随后又补了一条更… 本期还整理了 14 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-04-26",
+    "title": "AI Builders 简报 - 2026年4月26日",
+    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：how can they write code so fast?! 随后又补了一条更具体的上下文：(and we will fix… 本期还整理了 12 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-25/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-26/index.html"
   },
   "archive": [
+    {
+      "date": "2026-04-26",
+      "title": "AI Builders 简报 - 2026年4月26日",
+      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：how can they write code so fast?! 随后又补了一条更具体的上下文：(and we will fix… 本期还整理了 12 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-26/index.html"
+    },
     {
       "date": "2026-04-25",
       "title": "AI Builders 简报 - 2026年4月25日",
