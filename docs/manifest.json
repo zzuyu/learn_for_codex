@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-04-29T08:15:07.293Z",
+  "generatedAt": "2026-04-30T08:20:38.895Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-04-29",
-    "title": "AI Builders 简报 - 2026年4月29日",
-    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：at this point @ajambrosino is mogmogging enjoy the next few updat… 本期还整理了 14 条 builder 动态。",
+    "date": "2026-04-30",
+    "title": "AI Builders 简报 - 2026年4月30日",
+    "summary": "OpenAI VP Kevin Weil 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：It turns out, the job of a radiologist isn't to read x-… 本期还整理了 17 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-29/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-30/index.html"
   },
   "archive": [
+    {
+      "date": "2026-04-30",
+      "title": "AI Builders 简报 - 2026年4月30日",
+      "summary": "OpenAI VP Kevin Weil 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：It turns out, the job of a radiologist isn't to read x-… 本期还整理了 17 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-30/index.html"
+    },
     {
       "date": "2026-04-29",
       "title": "AI Builders 简报 - 2026年4月29日",
