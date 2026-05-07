@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-05-05T08:07:50.217Z",
+  "generatedAt": "2026-05-07T08:32:05.559Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-05-05",
-    "title": "AI Builders 简报 - 2026年5月5日",
-    "summary": "OpenAI VP Kevin Weil 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：👇👇👇 本期还整理了 12 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-05-07",
+    "title": "AI Builders 简报 - 2026年5月7日",
+    "summary": "Anthropic Thariq 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Claude in Space 🤞 随后又补了一条更具体的上下文：We're winding back our pe… 本期还整理了 19 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-05/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-07/index.html"
   },
   "archive": [
+    {
+      "date": "2026-05-07",
+      "title": "AI Builders 简报 - 2026年5月7日",
+      "summary": "Anthropic Thariq 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Claude in Space 🤞 随后又补了一条更具体的上下文：We're winding back our pe… 本期还整理了 19 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-07/index.html"
+    },
     {
       "date": "2026-05-05",
       "title": "AI Builders 简报 - 2026年5月5日",
