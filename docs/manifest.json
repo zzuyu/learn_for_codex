@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-14T08:35:55.275Z",
+  "generatedAt": "2026-05-15T08:47:27.099Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
     "date": "2026-05-14",
     "title": "AI Builders 简报 - 2026年5月14日",
-    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：being a dad is the thing that has most exceeded already-high-expe… 本期还整理了 13 条 builder 动态、1 篇官方博客、1 期播客。",
+    "summary": "Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和权限体验还远没打磨完。 这种公开反馈很有价值，因为它直接暴露了产品从“能用”走向“高频可用”时最容易… 本期还整理了 3 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
     "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-14/index.html"
   },
@@ -12,7 +12,7 @@
     {
       "date": "2026-05-14",
       "title": "AI Builders 简报 - 2026年5月14日",
-      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：being a dad is the thing that has most exceeded already-high-expe… 本期还整理了 13 条 builder 动态、1 篇官方博客、1 期播客。",
+      "summary": "Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和权限体验还远没打磨完。 这种公开反馈很有价值，因为它直接暴露了产品从“能用”走向“高频可用”时最容易… 本期还整理了 3 条 builder 动态、1 篇官方博客、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-14/index.html"
     },
     {
