@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-05-26T09:54:26.438Z",
+  "generatedAt": "2026-05-27T09:42:48.223Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-05-26",
-    "title": "AI Builders 简报 - 2026年5月26日",
-    "summary": "Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和权限体验还远没打磨完。 这种公开反馈很有价值，因为它直接暴露了产品从“能用”走向“高频可用”时最容易… 本期还整理了 9 条 builder 动态、1 期播客。",
+    "date": "2026-05-27",
+    "title": "AI Builders 简报 - 2026年5月27日",
+    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：🛫 本期还整理了 15 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-26/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-27/index.html"
   },
   "archive": [
+    {
+      "date": "2026-05-27",
+      "title": "AI Builders 简报 - 2026年5月27日",
+      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：🛫 本期还整理了 15 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-27/index.html"
+    },
     {
       "date": "2026-05-26",
       "title": "AI Builders 简报 - 2026年5月26日",
