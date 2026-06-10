@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-06-09T09:40:48.300Z",
+  "generatedAt": "2026-06-10T09:57:25.805Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-06-09",
-    "title": "AI Builders 简报 - 2026年6月9日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Anyone writing nested loops yet? 随后又补了一条更具体的上下文：Not… 本期还整理了 15 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-06-10",
+    "title": "AI Builders 简报 - 2026年6月10日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：I would like to claim my 1% of royalty fees. 随后又补了一… 本期还整理了 17 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-09/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-10/index.html"
   },
   "archive": [
+    {
+      "date": "2026-06-10",
+      "title": "AI Builders 简报 - 2026年6月10日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：I would like to claim my 1% of royalty fees. 随后又补了一… 本期还整理了 17 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-10/index.html"
+    },
     {
       "date": "2026-06-09",
       "title": "AI Builders 简报 - 2026年6月9日",
