@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-06-14T09:31:44.809Z",
+  "generatedAt": "2026-06-15T12:10:28.634Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-06-14",
-    "title": "AI Builders 简报 - 2026年6月14日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Hi, I'm Tibo and I just discovered Codex. AMA 本期还整理了 14 条 builder 动态、1 期播客。",
+    "date": "2026-06-15",
+    "title": "AI Builders 简报 - 2026年6月15日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Codex can see and set its own /goal. Everything we… 本期还整理了 11 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-14/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-15/index.html"
   },
   "archive": [
+    {
+      "date": "2026-06-15",
+      "title": "AI Builders 简报 - 2026年6月15日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Codex can see and set its own /goal. Everything we… 本期还整理了 11 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-15/index.html"
+    },
     {
       "date": "2026-06-14",
       "title": "AI Builders 简报 - 2026年6月14日",
