@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-06-30T09:32:13.408Z",
+  "generatedAt": "2026-07-01T09:42:29.267Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-06-30",
-    "title": "AI Builders 简报 - 2026年6月30日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Codex usage limits will be fully reset again in the… 本期还整理了 15 条 builder 动态、3 篇官方博客、1 期播客。",
+    "date": "2026-07-01",
+    "title": "AI Builders 简报 - 2026年7月1日",
+    "summary": "Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session 的工作台演化。 从多 session 管理，到桌面端组织方式，再到更顺手的并行查看，重点都落在“怎… 本期还整理了 17 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-30/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-01/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-01",
+      "title": "AI Builders 简报 - 2026年7月1日",
+      "summary": "Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session 的工作台演化。 从多 session 管理，到桌面端组织方式，再到更顺手的并行查看，重点都落在“怎… 本期还整理了 17 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-01/index.html"
+    },
     {
       "date": "2026-06-30",
       "title": "AI Builders 简报 - 2026年6月30日",
