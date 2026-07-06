@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-05T08:50:33.423Z",
+  "generatedAt": "2026-07-06T10:17:18.295Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-05",
-    "title": "AI Builders 简报 - 2026年7月5日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：iykyk 随后又补了一条更具体的上下文：A silly, but made me laugh int… 本期还整理了 13 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-07-06",
+    "title": "AI Builders 简报 - 2026年7月6日",
+    "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：our older kid put two words together for the first time and i am… 本期还整理了 14 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-05/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-06/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-06",
+      "title": "AI Builders 简报 - 2026年7月6日",
+      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：our older kid put two words together for the first time and i am… 本期还整理了 14 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-06/index.html"
+    },
     {
       "date": "2026-07-05",
       "title": "AI Builders 简报 - 2026年7月5日",
