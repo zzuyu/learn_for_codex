@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-07T09:37:59.283Z",
+  "generatedAt": "2026-07-08T08:25:21.579Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-07",
-    "title": "AI Builders 简报 - 2026年7月7日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Closing this week. Much of the teams building ChatG… 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-07-08",
+    "title": "AI Builders 简报 - 2026年7月8日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Prepare your sunglasses. Sol is coming. 😎 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-07/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-08/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-08",
+      "title": "AI Builders 简报 - 2026年7月8日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Prepare your sunglasses. Sol is coming. 😎 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-08/index.html"
+    },
     {
       "date": "2026-07-07",
       "title": "AI Builders 简报 - 2026年7月7日",
