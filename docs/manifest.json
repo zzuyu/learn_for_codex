@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-09T09:41:03.880Z",
+  "generatedAt": "2026-07-10T09:32:09.662Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-09",
-    "title": "AI Builders 简报 - 2026年7月9日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：You know OpenAI is cooking when the sushi and tacos… 本期还整理了 20 条 builder 动态、3 篇官方博客、1 期播客。",
+    "date": "2026-07-10",
+    "title": "AI Builders 简报 - 2026年7月10日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：To celebrate the launch of GPT-5.6 Sol, we will res… 本期还整理了 19 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-09/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-10/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-10",
+      "title": "AI Builders 简报 - 2026年7月10日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：To celebrate the launch of GPT-5.6 Sol, we will res… 本期还整理了 19 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-10/index.html"
+    },
     {
       "date": "2026-07-09",
       "title": "AI Builders 简报 - 2026年7月9日",
