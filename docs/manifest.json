@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-10T09:32:09.662Z",
+  "generatedAt": "2026-07-11T07:52:50.745Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-10",
-    "title": "AI Builders 简报 - 2026年7月10日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：To celebrate the launch of GPT-5.6 Sol, we will res… 本期还整理了 19 条 builder 动态、1 期播客。",
+    "date": "2026-07-11",
+    "title": "AI Builders 简报 - 2026年7月11日",
+    "summary": "Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just st… 本期还整理了 1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-10/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-11/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-11",
+      "title": "AI Builders 简报 - 2026年7月11日",
+      "summary": "Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just st… 本期还整理了 1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-11/index.html"
+    },
     {
       "date": "2026-07-10",
       "title": "AI Builders 简报 - 2026年7月10日",
