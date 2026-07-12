@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-11T07:52:50.745Z",
+  "generatedAt": "2026-07-12T08:14:04.488Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-11",
-    "title": "AI Builders 简报 - 2026年7月11日",
-    "summary": "Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just st… 本期还整理了 1 期播客。",
+    "date": "2026-07-12",
+    "title": "AI Builders 简报 - 2026年7月12日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：At different times you complained about speed, code… 本期还整理了 10 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-11/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-12/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-12",
+      "title": "AI Builders 简报 - 2026年7月12日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：At different times you complained about speed, code… 本期还整理了 10 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-12/index.html"
+    },
     {
       "date": "2026-07-11",
       "title": "AI Builders 简报 - 2026年7月11日",
