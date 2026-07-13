@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-12T08:14:04.488Z",
+  "generatedAt": "2026-07-13T09:22:50.657Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-12",
-    "title": "AI Builders 简报 - 2026年7月12日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：At different times you complained about speed, code… 本期还整理了 10 条 builder 动态、1 期播客。",
+    "date": "2026-07-13",
+    "title": "AI Builders 简报 - 2026年7月13日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Updates for Codex and ChatGPT Work users. No nerfin… 本期还整理了 15 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-12/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-13/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-13",
+      "title": "AI Builders 简报 - 2026年7月13日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Updates for Codex and ChatGPT Work users. No nerfin… 本期还整理了 15 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-13/index.html"
+    },
     {
       "date": "2026-07-12",
       "title": "AI Builders 简报 - 2026年7月12日",
