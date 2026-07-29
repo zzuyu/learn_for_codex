@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-28T08:30:48.245Z",
+  "generatedAt": "2026-07-29T08:37:56.177Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-28",
-    "title": "AI Builders 简报 - 2026年7月28日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Update. I have decided to take a break from x to re… 本期还整理了 14 条 builder 动态、1 期播客。",
+    "date": "2026-07-29",
+    "title": "AI Builders 简报 - 2026年7月29日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：One day we created the reset button and the rest is… 本期还整理了 10 条 builder 动态。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-28/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-29/index.html"
   },
   "archive": [
+    {
+      "date": "2026-07-29",
+      "title": "AI Builders 简报 - 2026年7月29日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：One day we created the reset button and the rest is… 本期还整理了 10 条 builder 动态。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-29/index.html"
+    },
     {
       "date": "2026-07-28",
       "title": "AI Builders 简报 - 2026年7月28日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年4月25日",
       "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：this was a good week. proud of the team. happy building! 随后又补了一条更… 本期还整理了 14 条 builder 动态、1 篇官方博客、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-25/index.html"
-    },
-    {
-      "date": "2026-04-23",
-      "title": "AI Builders 简报 - 2026年4月23日",
-      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：These are cool! I think most companies will want to use them. 本期还整理了 15 条 builder 动态、1 篇官方博客、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-23/index.html"
     }
   ]
 }
