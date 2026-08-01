@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-07-31T08:46:37.976Z",
+  "generatedAt": "2026-08-01T08:17:18.446Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-07-31",
-    "title": "AI Builders 简报 - 2026年7月31日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：The day we develop really good models. There will b… 本期还整理了 15 条 builder 动态、1 期播客。",
+    "date": "2026-08-01",
+    "title": "AI Builders 简报 - 2026年8月1日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Optimize for curiosity 随后又补了一条更具体的上下文：To celebrate… 本期还整理了 13 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-31/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-01/index.html"
   },
   "archive": [
+    {
+      "date": "2026-08-01",
+      "title": "AI Builders 简报 - 2026年8月1日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Optimize for curiosity 随后又补了一条更具体的上下文：To celebrate… 本期还整理了 13 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-01/index.html"
+    },
     {
       "date": "2026-07-31",
       "title": "AI Builders 简报 - 2026年7月31日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年4月29日",
       "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：at this point @ajambrosino is mogmogging enjoy the next few updat… 本期还整理了 14 条 builder 动态。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-29/index.html"
-    },
-    {
-      "date": "2026-04-27",
-      "title": "AI Builders 简报 - 2026年4月27日",
-      "summary": "OpenAI VP Kevin Weil 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：💥🤘 本期还整理了 12 条 builder 动态、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-04-27/index.html"
     }
   ]
 }
