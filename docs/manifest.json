@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-08-10T07:37:19.205Z",
+  "generatedAt": "2026-08-11T07:03:45.079Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-08-10",
-    "title": "AI Builders 简报 - 2026年8月10日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Midnight coding is the best coding. Until you read… 本期还整理了 17 条 builder 动态、1 篇官方博客、1 期播客。",
+    "date": "2026-08-11",
+    "title": "AI Builders 简报 - 2026年8月11日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Usage limits have been reset for all paid ChatGPT W… 本期还整理了 18 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-10/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-11/index.html"
   },
   "archive": [
+    {
+      "date": "2026-08-11",
+      "title": "AI Builders 简报 - 2026年8月11日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Usage limits have been reset for all paid ChatGPT W… 本期还整理了 18 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-11/index.html"
+    },
     {
       "date": "2026-08-10",
       "title": "AI Builders 简报 - 2026年8月10日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年5月12日",
       "summary": "OpenAI VP Kevin Weil 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：This from @tdrobbo is gold. 本期还整理了 6 条 builder 动态、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-12/index.html"
-    },
-    {
-      "date": "2026-05-11",
-      "title": "AI Builders 简报 - 2026年5月11日",
-      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：what if we name the next model \"goblin\" almost worth it to make y… 本期还整理了 11 条 builder 动态、1 篇官方博客、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-11/index.html"
     }
   ]
 }
