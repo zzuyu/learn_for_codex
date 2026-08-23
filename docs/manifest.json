@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-08-22T06:36:08.462Z",
+  "generatedAt": "2026-08-23T06:37:10.170Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-08-22",
-    "title": "AI Builders 简报 - 2026年8月22日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Update on rate limits in Codex. We do see that for… 本期还整理了 16 条 builder 动态、1 期播客。",
+    "date": "2026-08-23",
+    "title": "AI Builders 简报 - 2026年8月23日",
+    "summary": "Cat Wu 这几条更新放在一起看，方向很清楚：Claude Code 正在从“终端里的编码助手”往“可调度、可编排的工作台”走。 她一边强调桌面版更适合同时管理本地和云端的多个 session，一边强调 Routines 可以从定时… 本期还整理了 9 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-22/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-23/index.html"
   },
   "archive": [
+    {
+      "date": "2026-08-23",
+      "title": "AI Builders 简报 - 2026年8月23日",
+      "summary": "Cat Wu 这几条更新放在一起看，方向很清楚：Claude Code 正在从“终端里的编码助手”往“可调度、可编排的工作台”走。 她一边强调桌面版更适合同时管理本地和云端的多个 session，一边强调 Routines 可以从定时… 本期还整理了 9 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-23/index.html"
+    },
     {
       "date": "2026-08-22",
       "title": "AI Builders 简报 - 2026年8月22日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年5月25日",
       "summary": "Anthropic Thariq 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：to be clear I don't think the models are quite there yet, B… 本期还整理了 10 条 builder 动态、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-25/index.html"
-    },
-    {
-      "date": "2026-05-24",
-      "title": "AI Builders 简报 - 2026年5月24日",
-      "summary": "Vercel CEO Guillermo Rauch 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Processed 1400 replies ◾ OpenAI is catching up to… 本期还整理了 8 条 builder 动态、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-24/index.html"
     }
   ]
 }
