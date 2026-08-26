@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-08-25T06:42:21.966Z",
+  "generatedAt": "2026-08-26T06:44:34.412Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-08-25",
-    "title": "AI Builders 简报 - 2026年8月25日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：OpenAI DevDay 2026 will be our best DevDay in the h… 本期还整理了 13 条 builder 动态。",
+    "date": "2026-08-26",
+    "title": "AI Builders 简报 - 2026年8月26日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Good products take time. At least 34 days. 随后又补了一条更… 本期还整理了 17 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-25/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-26/index.html"
   },
   "archive": [
+    {
+      "date": "2026-08-26",
+      "title": "AI Builders 简报 - 2026年8月26日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Good products take time. At least 34 days. 随后又补了一条更… 本期还整理了 17 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-26/index.html"
+    },
     {
       "date": "2026-08-25",
       "title": "AI Builders 简报 - 2026年8月25日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年5月28日",
       "summary": "Over the past month, we’ve been looking into reports that Claude’s responses have worsened for some users. We’ve trac… 本期还整理了 4 篇官方博客、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-28/index.html"
-    },
-    {
-      "date": "2026-05-27",
-      "title": "AI Builders 简报 - 2026年5月27日",
-      "summary": "Sam Altman 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：🛫 本期还整理了 15 条 builder 动态、1 篇官方博客、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-05-27/index.html"
     }
   ]
 }
