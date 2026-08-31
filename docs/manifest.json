@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-08-30T11:17:10.076Z",
+  "generatedAt": "2026-08-31T12:44:02.546Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-08-30",
-    "title": "AI Builders 简报 - 2026年8月30日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Team is cooking like never before 随后又补了一条更具体的上下文：Th… 本期还整理了 8 条 builder 动态、1 期播客。",
+    "date": "2026-08-31",
+    "title": "AI Builders 简报 - 2026年8月31日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：What should we ship next week? 随后又补了一条更具体的上下文：For c… 本期还整理了 10 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-30/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-31/index.html"
   },
   "archive": [
+    {
+      "date": "2026-08-31",
+      "title": "AI Builders 简报 - 2026年8月31日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：What should we ship next week? 随后又补了一条更具体的上下文：For c… 本期还整理了 10 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-31/index.html"
+    },
     {
       "date": "2026-08-30",
       "title": "AI Builders 简报 - 2026年8月30日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年6月2日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：You can just codex ... a farm 随后又补了一条更具体的上下文：Heard… 本期还整理了 14 条 builder 动态、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-02/index.html"
-    },
-    {
-      "date": "2026-06-01",
-      "title": "AI Builders 简报 - 2026年6月1日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：The Codex usage limits have been reset for all paid… 本期还整理了 12 条 builder 动态、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-01/index.html"
     }
   ]
 }
