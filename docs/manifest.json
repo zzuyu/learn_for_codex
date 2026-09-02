@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-09-01T11:07:22.329Z",
+  "generatedAt": "2026-09-02T10:39:49.867Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-09-01",
-    "title": "AI Builders 简报 - 2026年9月1日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：If you still haven't tried Codex but have considere… 本期还整理了 10 条 builder 动态、1 期播客。",
+    "date": "2026-09-02",
+    "title": "AI Builders 简报 - 2026年9月2日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Bullish 本期还整理了 16 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-01/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-02/index.html"
   },
   "archive": [
+    {
+      "date": "2026-09-02",
+      "title": "AI Builders 简报 - 2026年9月2日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Bullish 本期还整理了 16 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-02/index.html"
+    },
     {
       "date": "2026-09-01",
       "title": "AI Builders 简报 - 2026年9月1日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年6月4日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Lots of little vectors at OpenAI all pointing in th… 本期还整理了 18 条 builder 动态、1 篇官方博客、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-04/index.html"
-    },
-    {
-      "date": "2026-06-03",
-      "title": "AI Builders 简报 - 2026年6月3日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：ChatGPT Whether you understand the name or not. It'… 本期还整理了 15 条 builder 动态、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-03/index.html"
     }
   ]
 }
