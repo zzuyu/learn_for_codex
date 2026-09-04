@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-09-03T10:41:29.072Z",
+  "generatedAt": "2026-09-04T10:37:15.274Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-09-03",
-    "title": "AI Builders 简报 - 2026年9月3日",
-    "summary": "Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session 的工作台演化。 从多 session 管理，到桌面端组织方式，再到更顺手的并行查看，重点都落在“怎… 本期还整理了 15 条 builder 动态、1 期播客。",
+    "date": "2026-09-04",
+    "title": "AI Builders 简报 - 2026年9月4日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：We will give one banked reset for every day you don… 本期还整理了 19 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-03/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-04/index.html"
   },
   "archive": [
+    {
+      "date": "2026-09-04",
+      "title": "AI Builders 简报 - 2026年9月4日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：We will give one banked reset for every day you don… 本期还整理了 19 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-04/index.html"
+    },
     {
       "date": "2026-09-03",
       "title": "AI Builders 简报 - 2026年9月3日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年6月6日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Incredible work from @simpsoka and team 随后又补了一条更具体的… 本期还整理了 15 条 builder 动态、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-06/index.html"
-    },
-    {
-      "date": "2026-06-05",
-      "title": "AI Builders 简报 - 2026年6月5日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：You can use codex within your own programs using th… 本期还整理了 17 条 builder 动态、4 篇官方博客、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-05/index.html"
     }
   ]
 }
