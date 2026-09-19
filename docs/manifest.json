@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-09-18T10:35:57.862Z",
+  "generatedAt": "2026-09-19T10:20:43.329Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-09-18",
-    "title": "AI Builders 简报 - 2026年9月18日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Has anyone yet tried to get Astra and Fable to agre… 本期还整理了 15 条 builder 动态。",
+    "date": "2026-09-19",
+    "title": "AI Builders 简报 - 2026年9月19日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：We were working on the keynote today with @romainhu… 本期还整理了 13 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-18/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-19/index.html"
   },
   "archive": [
+    {
+      "date": "2026-09-19",
+      "title": "AI Builders 简报 - 2026年9月19日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：We were working on the keynote today with @romainhu… 本期还整理了 13 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-09-19/index.html"
+    },
     {
       "date": "2026-09-18",
       "title": "AI Builders 简报 - 2026年9月18日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年6月20日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Late to this one, but follow @danshipper for S-tier… 本期还整理了 13 条 builder 动态、1 篇官方博客、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-20/index.html"
-    },
-    {
-      "date": "2026-06-19",
-      "title": "AI Builders 简报 - 2026年6月19日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：What do you use 本期还整理了 19 条 builder 动态、1 篇官方博客、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-06-19/index.html"
     }
   ]
 }
