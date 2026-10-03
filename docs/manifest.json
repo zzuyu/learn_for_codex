@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-10-02T11:54:29.013Z",
+  "generatedAt": "2026-10-03T11:07:23.942Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-10-02",
-    "title": "AI Builders 简报 - 2026年10月2日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Down to 6110 unread from the over 9000 unread email… 本期还整理了 20 条 builder 动态、3 篇官方博客、1 期播客。",
+    "date": "2026-10-03",
+    "title": "AI Builders 简报 - 2026年10月3日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Fortunately our future models will be much better a… 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-10-02/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-10-03/index.html"
   },
   "archive": [
+    {
+      "date": "2026-10-03",
+      "title": "AI Builders 简报 - 2026年10月3日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Fortunately our future models will be much better a… 本期还整理了 16 条 builder 动态、1 篇官方博客、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-10-03/index.html"
+    },
     {
       "date": "2026-10-02",
       "title": "AI Builders 简报 - 2026年10月2日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年7月4日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：What it could have been 本期还整理了 16 条 builder 动态、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-04/index.html"
-    },
-    {
-      "date": "2026-07-03",
-      "title": "AI Builders 简报 - 2026年7月3日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Can't wait to see what people will do with GPT-5.6… 本期还整理了 18 条 builder 动态、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-03/index.html"
     }
   ]
 }
