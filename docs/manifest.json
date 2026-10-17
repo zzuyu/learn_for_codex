@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-10-16T10:43:48.516Z",
+  "generatedAt": "2026-10-17T10:09:45.769Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-10-16",
-    "title": "AI Builders 简报 - 2026年10月16日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Either we are out of ideas or we are cooking. Time… 本期还整理了 14 条 builder 动态、1 期播客。",
+    "date": "2026-10-17",
+    "title": "AI Builders 简报 - 2026年10月17日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Also we just added slides support yesterday, try it… 本期还整理了 17 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-10-16/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-10-17/index.html"
   },
   "archive": [
+    {
+      "date": "2026-10-17",
+      "title": "AI Builders 简报 - 2026年10月17日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Also we just added slides support yesterday, try it… 本期还整理了 17 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-10-17/index.html"
+    },
     {
       "date": "2026-10-16",
       "title": "AI Builders 简报 - 2026年10月16日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年7月18日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：And transitively might also have reset other rate l… 本期还整理了 13 条 builder 动态、3 篇官方博客、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-18/index.html"
-    },
-    {
-      "date": "2026-07-17",
-      "title": "AI Builders 简报 - 2026年7月17日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Spurious correlation or causation? 随后又补了一条更具体的上下文：L… 本期还整理了 18 条 builder 动态、1 篇官方博客、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-07-17/index.html"
     }
   ]
 }
