@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Builders 简报 - 2026年10月31日</title>
+    <style>:root {
+    --paper: #f3ede6;
+    --card: #fffdf9;
+    --line: rgba(164, 83, 54, 0.16);
+    --ink: #1d1b18;
+    --muted: #7d6a5b;
+    --accent: #a45336;
+    --green: #22804b;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; background: radial-gradient(circle at top, rgba(214,190,168,0.28), transparent 40%), var(--paper); color: var(--ink); }
+  a { color: var(--accent); }
+  .page { max-width: 1180px; margin: 0 auto; padding: 36px 20px 72px; }
+  .hero { padding: 42px 32px 34px; border-radius: 28px; background: #252525; color: #fff8f0; }
+  .hero-kicker { margin: 0 0 12px; font-size: 12px; letter-spacing: .18em; text-transform: uppercase; color: rgba(255,248,240,.68); }
+  .hero-date { margin: 0 0 18px; color: rgba(255,248,240,.82); }
+  .hero h1 { margin: 0; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(3rem, 7vw, 5.4rem); line-height: .95; }
+  .hero-slogan { margin: 14px 0 0; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
+  .hero-intro { max-width: 58ch; margin: 22px 0 0; line-height: 1.9; color: rgba(255,248,240,.88); }
+  .panorama { margin: 24px 0 8px; padding: 0 4px; }
+  .panorama summary { cursor: pointer; font-weight: 700; color: var(--ink); }
+  .panorama summary span { font-weight: 400; color: var(--muted); margin-left: 8px; font-size: .92rem; }
+  .panorama-group { margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(23,22,20,.08); }
+  .panorama-group header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px; }
+  .panorama-group ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .panorama-group li { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; color: var(--muted); }
+  .panorama-group li.is-active { color: var(--ink); }
+  .panorama-group .dot { width: 8px; height: 8px; border-radius: 999px; background: rgba(125,106,91,.3); display: inline-block; }
+  .panorama-group li.is-active .dot { background: var(--green); }
+  .panorama-group em { color: rgba(125,106,91,.72); font-style: normal; font-size: .9rem; }
+  .section { margin-top: 56px; }
+  .section-heading { margin-bottom: 22px; }
+  .section-kicker { margin: 0 0 10px; letter-spacing: .16em; font-size: 12px; text-transform: uppercase; color: var(--muted); }
+  .section h2 { margin: 0 0 10px; font-family: Georgia, 'Times New Roman', serif; font-size: clamp(2rem, 4vw, 3.1rem); line-height: 1.05; }
+  .section-intro { margin: 0; max-width: 60ch; color: var(--muted); line-height: 1.9; }
+  .section-cards { display: grid; gap: 24px; }
+  .card { display: grid; grid-template-columns: minmax(300px, 42%) minmax(0, 1fr); gap: 0; background: rgba(255,253,249,.96); border: 1px solid var(--line); border-radius: 28px; overflow: hidden; box-shadow: 0 18px 40px rgba(73,53,39,.08); }
+  .card-visual { padding: 22px; background: linear-gradient(180deg, rgba(35,35,35,.08), transparent 65%); }
+  .poster { height: 100%; min-height: 320px; border-radius: 22px; padding: 22px; display: flex; flex-direction: column; justify-content: flex-end; color: #fff8f0; background: linear-gradient(180deg, rgba(255,255,255,.15), rgba(28,28,28,.78)), radial-gradient(circle at top, rgba(255,255,255,.22), transparent 35%), #3b3733; }
+  .poster-kicker { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; opacity: .78; }
+  .poster-initials { margin-top: auto; font-family: Georgia, 'Times New Roman', serif; font-size: 4rem; line-height: .95; }
+  .poster-title { margin-top: 6px; font-family: Georgia, 'Times New Roman', serif; font-size: 2rem; line-height: 1; }
+  .poster-preview { margin: 12px 0 0; max-width: 22ch; line-height: 1.8; color: rgba(255,248,240,.88); }
+  .card-body { padding: 28px 28px 24px 12px; display: flex; flex-direction: column; justify-content: center; }
+  .entity-line { margin: 0 0 10px; font-size: 1.45rem; line-height: 1.25; font-weight: 700; }
+  .entity-label { color: var(--accent); }
+  .entity-value { color: var(--ink); }
+  .card-subtitle { margin: 0 0 16px; font-size: .82rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+  .card-summary { padding-top: 18px; border-top: 1px solid rgba(164,83,54,.16); font-size: 1rem; line-height: 2; color: var(--ink); }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  .tag { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 999px; border: 1px solid rgba(164,83,54,.16); color: rgba(29,27,24,.78); background: rgba(255,255,255,.5); font-size: .78rem; }
+  .link-row { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid rgba(23,22,20,.08); font-size: .9rem; }
+  .link-label { color: var(--muted); font-size: .76rem; letter-spacing: .12em; text-transform: uppercase; }
+  .link-divider { color: rgba(23,22,20,.22); }
+  .footer { margin-top: 56px; padding-top: 18px; border-top: 1px solid rgba(23,22,20,.08); color: var(--muted); font-size: .95rem; }
+  @media (max-width: 900px) {
+    .card { grid-template-columns: 1fr; }
+    .card-body { padding: 20px 22px 24px; }
+    .poster { min-height: 260px; }
+  }
+  @media (max-width: 640px) {
+    .page { padding: 22px 14px 48px; }
+    .hero { padding: 32px 20px 28px; }
+    .hero h1 { font-size: 3.3rem; }
+    .entity-line { font-size: 1.12rem; }
+  }</style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="hero-kicker">FOLLOW BUILDERS DIGEST</p>
+        <p class="hero-date">2026年10月31日</p>
+        <h1>AI Builders<br />简报</h1>
+        <p class="hero-slogan">Closer to Source, Closer to Change</p>
+        <p class="hero-intro">我们直接跟踪头部创新组织与关键建设者的公开输出，把博客、播客、推文和产品更新中的原始信号，整理成中文可读的快照。不是复述热闹，而是尽量缩短你与变化源头之间的距离。</p>
+      </header>
+      <details class="panorama"><summary>本期来源全景 <span>绿色表示本期有更新</span></summary>
+    <section class="panorama-group">
+      <header><strong>X / 推文</strong><span>14/25</span></header>
+      <ul>
+        <li class=""><span class="dot"></span><span>Andrej Karpathy</span><em>@karpathy</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-swyx">Swyx</a><em>@swyx</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-joshwoodward">Josh Woodward</a><em>@joshwoodward</em></li><li class=""><span class="dot"></span><span>Kevin Weil</span><em>@kevinweil</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-petergyang">Peter Yang</a><em>@petergyang</em></li><li class=""><span class="dot"></span><span>Nan Yu</span><em>@thenanyu</em></li><li class=""><span class="dot"></span><span>Madhu Guru</span><em>@realmadhuguru</em></li><li class=""><span class="dot"></span><span>Amanda Askell</span><em>@AmandaAskell</em></li><li class=""><span class="dot"></span><span>Cat Wu</span><em>@_catwu</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-trq212">Thariq</a><em>@trq212</em></li><li class=""><span class="dot"></span><span>Google Labs</span><em>@GoogleLabs</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-amasad">Amjad Masad</a><em>@amasad</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-rauchg">Guillermo Rauch</a><em>@rauchg</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-alexalbert">Alex Albert</a><em>@alexalbert__</em></li><li class=""><span class="dot"></span><span>Aaron Levie</span><em>@levie</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-ryolu">Ryo Lu</a><em>@ryolu_</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-garrytan">Garry Tan</a><em>@garrytan</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-mattturck">Matt Turck</a><em>@mattturck</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-zarazhangrui">Zara Zhang</a><em>@zarazhangrui</em></li><li class=""><span class="dot"></span><span>Nikunj Kothari</span><em>@nikunj</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-steipete">Peter Steinberger</a><em>@steipete</em></li><li class=""><span class="dot"></span><span>Dan Shipper</span><em>@danshipper</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-adityaag">Aditya Agarwal</a><em>@adityaag</em></li><li class=""><span class="dot"></span><span>Sam Altman</span><em>@sama</em></li><li class="is-active"><span class="dot"></span><a href="#tweet-claudeai">Claude</a><em>@claudeai</em></li>
+      </ul>
+    </section>
+    <section class="panorama-group">
+      <header><strong>官方博客</strong><span>0/2</span></header>
+      <ul>
+        <li class=""><span class="dot"></span><span>Anthropic Engineering</span></li><li class=""><span class="dot"></span><span>Claude Blog</span></li>
+      </ul>
+    </section>
+    <section class="panorama-group">
+      <header><strong>播客精选</strong><span>1/6</span></header>
+      <ul>
+        <li class=""><span class="dot"></span><span>Latent Space</span></li><li class=""><span class="dot"></span><span>Training Data</span></li><li class="is-active"><span class="dot"></span><a href="#podcast-no-priors">No Priors</a></li><li class=""><span class="dot"></span><span>Unsupervised Learning</span></li><li class=""><span class="dot"></span><span>The MAD Podcast with Matt Turck</span></li><li class=""><span class="dot"></span><span>AI &amp; I by Every</span></li>
+      </ul>
+    </section>
+  </details>
+      <section class="section" id="builder-signals">
+    <div class="section-heading">
+      <p class="section-kicker">X / 推文</p>
+      <h2>技术大佬们的“朋友圈”，今天又更新了</h2>
+      <p class="section-intro">把零散动态整理成可快速扫读的中文卡片，先看“谁发的”，再看这条动态到底传达了什么。</p>
+    </div>
+    <div class="section-cards"><article class="card" id="tweet-thsottiaux">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">TS</div>
+        <div class="poster-title">Thibault Sottiaux</div>
+        <p class="poster-preview">Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">OpenAI Thibault Sottiaux</span></p>
+      <p class="card-subtitle">@thsottiaux</p>
+      <div class="card-summary">Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session 的工作台演化。 从多 session 管理，到桌面端组织方式，再到更顺手的并行查看，重点都落在“怎么把 agent 真正放进持续工作流里”。</div>
+      <div class="tag-row"><span class="tag">智能体编排</span><span class="tag">工作流自动化</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/thsottiaux/status/2116405414921384099" target="_blank" rel="noreferrer">原帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-bcherny">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">BC</div>
+        <div class="poster-title">Boris Cherny</div>
+        <p class="poster-preview">Anthropic Boris Cherny 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：We&#39;…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Anthropic Boris Cherny</span></p>
+      <p class="card-subtitle">@bcherny</p>
+      <div class="card-summary">Anthropic Boris Cherny 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：We&#39;re removing the 5-hour limit for verified Ultra accounts.</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">开发工具</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/bcherny/status/2116222842413142111" target="_blank" rel="noreferrer">原帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-trq212">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">T</div>
+        <div class="poster-title">Thariq</div>
+        <p class="poster-preview">Anthropic Thariq 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：basically…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Anthropic Thariq</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Anthropic Thariq 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：basically everyone is bad at predicting how more intelligence will actually show up in the economy and the simplest answer of “it’ll cost a lot and unemploy everyone,” is actually not very AGI-pilled imo, we should avoi… 随后又补了一条更具体的上下文：the solution to economic doomerism is to be even more AGI-pilled I believe in a well-aligned ASI that can explain its work and bring us along, one that makes each individual maximally effective</div>
+      <div class="tag-row"><span class="tag">开发工具</span><span class="tag">模型应用</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/trq212/status/2116212324696777073" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/trq212/status/2116212322838655014" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-alexalbert">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">AA</div>
+        <div class="poster-title">Alex Albert</div>
+        <p class="poster-preview">Anthropic Alex Albert 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：shor…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Anthropic Alex Albert</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Anthropic Alex Albert 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：short history on the plan and where it&#39;s at now 随后又补了一条更具体的上下文：Ultra has a better ring to it than Max 20x. Also no more 5 hour rate limits for Ultra subs.</div>
+      <div class="tag-row"><span class="tag">本地工具</span><span class="tag">搜索分发</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/alexalbert__/status/2116227346869194935" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/alexalbert__/status/2116227345501880781" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-claudeai">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">C</div>
+        <div class="poster-title">Claude</div>
+        <p class="poster-preview">Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Anthropic Claude</span></p>
+      <p class="card-subtitle">@claudeai</p>
+      <div class="card-summary">Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session 的工作台演化。 从多 session 管理，到桌面端组织方式，再到更顺手的并行查看，重点都落在“怎么把 agent 真正放进持续工作流里”。</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">智能体编排</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/claudeai/status/2116220869479428500" target="_blank" rel="noreferrer">原帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-petergyang">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">PY</div>
+        <div class="poster-title">Peter Yang</div>
+        <p class="poster-preview">Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Peter Yang</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Peter Yang 这组动态里有两个很真实的信号：一是 Claude Code 桌面端已经开始进入日常工作流，二是跨桌面/移动协作和权限体验还远没打磨完。 这种公开反馈很有价值，因为它直接暴露了产品从“能用”走向“高频可用”时最容易卡住的那层体验摩擦。</div>
+      <div class="tag-row"><span class="tag">智能体编排</span><span class="tag">工作流自动化</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/petergyang/status/2116353054614442364" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/petergyang/status/2116333763466858713" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-rauchg">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">GR</div>
+        <div class="poster-title">Guillermo Rauch</div>
+        <p class="poster-preview">Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Vercel CEO Guillermo Rauch</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Claude 官方这几条动态，核心都在强调同一件事：Claude Code 桌面端已经不再只是终端替代品，而是在往并行 session 的工作台演化。 从多 session 管理，到桌面端组织方式，再到更顺手的并行查看，重点都落在“怎么把 agent 真正放进持续工作流里”。</div>
+      <div class="tag-row"><span class="tag">智能体编排</span><span class="tag">工作流自动化</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/rauchg/status/2116369601508593911" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/rauchg/status/2116345666108854781" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-garrytan">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">GT</div>
+        <div class="poster-title">Garry Tan</div>
+        <p class="poster-preview">Ycombinator CEO Garry Tan 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Ycombinator CEO Garry Tan</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Ycombinator CEO Garry Tan 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：GBrain Cloud is the fastest way to get GBrain going across all your agents. Every harness has its strengths - Grok/Muse/Dots for personal, OpenClaw/Hermes for raw power, Claude Code/Codex/Capy for codegen GBrain lets yo… 随后又补了一条更具体的上下文：Creators of PStack and GStack Can’t wait to share our lightcone ep with @poteto and @romanugarte_</div>
+      <div class="tag-row"><span class="tag">智能体编排</span><span class="tag">开源发布</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/garrytan/status/2116303457774899251" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/garrytan/status/2116262167892852812" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-joshwoodward">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">JW</div>
+        <div class="poster-title">Josh Woodward</div>
+        <p class="poster-preview">Gemini 开始上线面向印度 NEET 医学考试的练习测试，这说明 Google 正在把 Gemini 往更具体的教育工作流推进，而…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Google Labs VP Josh Woodward</span></p>
+      <p class="card-subtitle">@joshwoodward</p>
+      <div class="card-summary">Gemini 开始上线面向印度 NEET 医学考试的练习测试，这说明 Google 正在把 Gemini 往更具体的教育工作流推进，而不只是“通用聊天机器人”。 更值得注意的是，他公开征集下一个国家和学科，像是在验证一套可复制的本地化学习产品模板。</div>
+      <div class="tag-row"><span class="tag">教育场景</span><span class="tag">模型应用</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/joshwoodward/status/2116220878593900775" target="_blank" rel="noreferrer">原帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-steipete">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">PS</div>
+        <div class="poster-title">Peter Steinberger</div>
+        <p class="poster-preview">Peter Steinberger 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：This is…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Peter Steinberger</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Peter Steinberger 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：This is smart. Wild that this wasn’t the default. Unpredictable inference quality was usually why I recommended skipping the middleman. 随后又补了一条更具体的上下文：Another reason why you wanna use your own harness and not one where companies change what you can or can’t do at will.</div>
+      <div class="tag-row"><span class="tag">智能体编排</span><span class="tag">模型应用</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/steipete/status/2116183103530217488" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/steipete/status/2116153238563242385" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-swyx">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">S</div>
+        <div class="poster-title">Swyx</div>
+        <p class="poster-preview">Swyx 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：everything is fine wh…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Swyx</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Swyx 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：everything is fine why are you asking 随后又补了一条更具体的上下文：community note mfs trying to quote my own show notes back to me, bitch dont cite the ancient magic, i was there when it was written</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">开发工具</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/swyx/status/2116379186831257954" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/swyx/status/2116372094527443439" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-amasad">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">AM</div>
+        <div class="poster-title">Amjad Masad</div>
+        <p class="poster-preview">Amjad Masad 这波更新有两个信号：一是很多过去需要单独做成小工具的能力，现在会直接收敛成“skill”；二是 Replit…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Replit CEO Amjad Masad</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Amjad Masad 这波更新有两个信号：一是很多过去需要单独做成小工具的能力，现在会直接收敛成“skill”；二是 Replit 在印度把 Razorpay 这种本地支付能力接进来，明显是在补“能做”之外的“能卖、能收钱”。</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">本地工具</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/amasad/status/2116343923925041462" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/amasad/status/2116341851825287476" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-ryolu">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">RL</div>
+        <div class="poster-title">Ryo Lu</div>
+        <p class="poster-preview">Cursor AI Ryo Lu 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：play here…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Cursor AI Ryo Lu</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Cursor AI Ryo Lu 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：play here DM me for testflight 随后又补了一条更具体的上下文：ryOS on iPhone Duo better than iOS ☺️</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">开发工具</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/ryolu_/status/2116126802045509710" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/ryolu_/status/2116126528060973480" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-mattturck">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">MT</div>
+        <div class="poster-title">Matt Turck</div>
+        <p class="poster-preview">FirstMarkCap Matt Turck 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：No…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">FirstMarkCap Matt Turck</span></p>
+      <p class="card-subtitle">@mattturck</p>
+      <div class="card-summary">FirstMarkCap Matt Turck 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Not to spoil the French jokes, but: * This is NOT law * This has zero chance of becoming law - will never survive the legistlative process * This is a vote by 11 populist morons in the lower chamber which was nearly emp…</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">开发工具</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/mattturck/status/2116335155535052951" target="_blank" rel="noreferrer">原帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-zarazhangrui">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">ZZ</div>
+        <div class="poster-title">Zara Zhang</div>
+        <p class="poster-preview">Zara Zhang 把 Tab Out 继续简化成一个纯 Chrome 扩展：没有服务器，没有 Node.js，没有 npm，标签页…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">Zara Zhang</span></p>
+      <p class="card-subtitle">2 条原帖</p>
+      <div class="card-summary">Zara Zhang 把 Tab Out 继续简化成一个纯 Chrome 扩展：没有服务器，没有 Node.js，没有 npm，标签页也全部本地存储。 她后面解释思路时点出了更有意思的地方：浏览器历史和本地数据库，本身就是 LLM-native 工具很好的原材料。</div>
+      <div class="tag-row"><span class="tag">智能体编排</span><span class="tag">浏览器扩展</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/zarazhangrui/status/2116283023415287932" target="_blank" rel="noreferrer">原帖</a><span class="link-divider">/</span><a href="https://x.com/zarazhangrui/status/2116281211962454056" target="_blank" rel="noreferrer">补充帖</a></div>
+    </div>
+  </article><article class="card" id="tweet-adityaag">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">X / 推文</div>
+        <div class="poster-initials">AA</div>
+        <div class="poster-title">Aditya Agarwal</div>
+        <p class="poster-preview">SPC Founder Aditya Agarwal 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Author:</span><span class="entity-value">SPC Founder Aditya Agarwal</span></p>
+      <p class="card-subtitle">@adityaag</p>
+      <div class="card-summary">SPC Founder Aditya Agarwal 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：It is always so odd how fixated investors/press are on the last private round price Whether ANT IPOs at $1.2T or $2T --&gt; it is an insanely impressive act of value creation within 6 years *AND*, most of the value of comp…</div>
+      <div class="tag-row"><span class="tag">模型应用</span><span class="tag">开发工具</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://x.com/adityaag/status/2116249251651215822" target="_blank" rel="noreferrer">原帖</a></div>
+    </div>
+  </article></div>
+  </section><section class="section" id="podcast-picks">
+    <div class="section-heading">
+      <p class="section-kicker">播客精选</p>
+      <h2>长谈里的判断，比热闹更重要</h2>
+      <p class="section-intro">更适合拿来抓长线判断和行业语气，看 builder 在长时间对谈里到底怎么解释世界。</p>
+    </div>
+    <div class="section-cards"><article class="card" id="podcast-no-priors">
+    <div class="card-visual">
+      <div class="poster">
+        <div class="poster-kicker">播客精选</div>
+        <div class="poster-initials">NP</div>
+        <div class="poster-title">No Priors</div>
+        <p class="poster-preview">This is the ultimate moonshot in enterprise software. These agents…</p>
+      </div>
+    </div>
+    <div class="card-body">
+      <p class="entity-line"><span class="entity-label">Source:</span><span class="entity-value">No Priors</span></p>
+      <p class="card-subtitle">Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch</p>
+      <div class="card-summary">This is the ultimate moonshot in enterprise software. These agents that go off and do work for you and magically discover all your problems and solve all your problems. And I think no one&#39;s really figured out how to do this well. This is kind of the OpenAI hugging face incidents or other things where agents are given a task and then they do something that&#39;s unexpected. The agent becomes pretty competent. They could…</div>
+      <div class="tag-row"><span class="tag">教育场景</span><span class="tag">模型应用</span></div>
+      <div class="link-row"><span class="link-label">来源链接</span><a href="https://www.youtube.com/@NoPriorsPodcast" target="_blank" rel="noreferrer">节目页</a></div>
+    </div>
+  </article></div>
+  </section>
+      <footer class="footer">通过 Follow Builders 公开发布链路生成，最新内容会自动归档到公开链接。</footer>
+    </main>
+  </body>
+</html>
