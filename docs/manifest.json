@@ -1,14 +1,20 @@
 {
-  "generatedAt": "2026-11-07T12:28:18.624Z",
+  "generatedAt": "2026-11-08T12:46:39.545Z",
   "baseUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/",
   "latest": {
-    "date": "2026-11-07",
-    "title": "AI Builders 简报 - 2026年11月7日",
-    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Quite cool what you can do with a single prompt the… 本期还整理了 13 条 builder 动态、1 期播客。",
+    "date": "2026-11-08",
+    "title": "AI Builders 简报 - 2026年11月8日",
+    "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Would a Pro 50 make sense? Wdyt? 随后又补了一条更具体的上下文：Saw… 本期还整理了 10 条 builder 动态、1 期播客。",
     "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/index.html",
-    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-11-07/index.html"
+    "archiveUrl": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-11-08/index.html"
   },
   "archive": [
+    {
+      "date": "2026-11-08",
+      "title": "AI Builders 简报 - 2026年11月8日",
+      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Would a Pro 50 make sense? Wdyt? 随后又补了一条更具体的上下文：Saw… 本期还整理了 10 条 builder 动态、1 期播客。",
+      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-11-08/index.html"
+    },
     {
       "date": "2026-11-07",
       "title": "AI Builders 简报 - 2026年11月7日",
@@ -542,12 +548,6 @@
       "title": "AI Builders 简报 - 2026年8月9日",
       "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：cc @theo 随后又补了一条更具体的上下文：That's right, GPT-5.6 Sol i… 本期还整理了 14 条 builder 动态、1 期播客。",
       "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-09/index.html"
-    },
-    {
-      "date": "2026-08-08",
-      "title": "AI Builders 简报 - 2026年8月8日",
-      "summary": "OpenAI Thibault Sottiaux 这组公开动态最值得看的地方，是它把最近在推进的方向讲得更具体了。 先抛出的信号是：Astro Boy and Sol 随后又补了一条更具体的上下文：Somewhere on your… 本期还整理了 15 条 builder 动态、1 期播客。",
-      "url": "https://cdn.jsdelivr.net/gh/zzuyu/learn_for_codex@main/docs/archive/2026-08-08/index.html"
     }
   ]
 }
